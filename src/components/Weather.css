@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .search-bar{
@@ -75,4 +76,23 @@
 .weather-data .col img{
     width: 26px;
     margin-top: 10px;
+}
+
+
+@media (max-width: 480px) {
+    .weather{
+        width: 340px;
+    }
+
+    .search-bar input{
+  height: 50px;
+  
+  font-size: 16px;
+}
+
+.location{
+    color: #fff;
+    font-size: 30px;
+}
+
 }
