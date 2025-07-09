@@ -95,4 +95,14 @@
     font-size: 30px;
 }
 
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+}
+
 }
